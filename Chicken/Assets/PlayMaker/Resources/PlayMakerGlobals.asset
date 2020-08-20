@@ -33,5 +33,5 @@ MonoBehaviour:
     variableCategoryIDs: 
   events:
   - CheckHighScore
-  - GoGameOver
   - UpdateScore
+  - GoGameOver
