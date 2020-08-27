@@ -127,7 +127,7 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.DestroyObject
         customNames:
         - 
-        actionEnabled: 01
+        actionEnabled: 00
         actionIsOpen: 01
         actionStartIndex: 00000000
         actionHashCodes: 9ff80c02
@@ -157,7 +157,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0.1
+          value: 2
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 0
