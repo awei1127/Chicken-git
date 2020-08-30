@@ -4129,6 +4129,7 @@ Light:
   m_ShadowAngle: 0
 --- !u!4 &705507995
 <<<<<<< HEAD
+<<<<<<< HEAD
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4314,6 +4315,8 @@ BoxCollider:
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &762818797
+=======
+>>>>>>> parent of cbe599e... 重作了按鈕 準備放廣告
 =======
 >>>>>>> parent of cbe599e... 重作了按鈕 準備放廣告
 Transform:
