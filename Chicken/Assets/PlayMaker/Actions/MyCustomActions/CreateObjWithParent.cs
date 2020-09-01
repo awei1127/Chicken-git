@@ -9,14 +9,20 @@ namespace HutongGames.PlayMaker.Actions
 	{
 		public Transform parent;
 		public FsmGameObject obj;
-		public FsmVector3 position;
+		public FsmFloat positionX;
+		public FsmFloat positionY;
 		public FsmVector3 rotation;
+		private Vector3 position;
 
 		// Code that runs on entering the state.
 		public override void OnEnter()
 		{
-			Object.Instantiate(obj.Value, position.Value, Quaternion.Euler(rotation.Value), parent);
+			position.x = positionX.Value;
+			position.y = positionY.Value;
+			
+			Object.Instantiate(obj.Value, position, Quaternion.Euler(rotation.Value), parent);
 			Finish();
+			
 		}
 
 

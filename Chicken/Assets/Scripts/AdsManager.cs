@@ -51,7 +51,7 @@ public class AdsManager : MonoBehaviour
     public void RequestBanner()
     {
         #if UNITY_ANDROID
-            string adUnitId = "ca-app-pub-3940256099942544/6300978111";
+            string adUnitId = "ca-app-pub-9585251573794462/4711599229";
 
         #elif UNITY_IPHONE
             string adUnitId = "ca-app-pub-3940256099942544/2934735716";
@@ -70,7 +70,7 @@ public class AdsManager : MonoBehaviour
     public void RequestInterstitial()
     {
         #if UNITY_ANDROID
-            string adUnitId = "ca-app-pub-3940256099942544/1033173712";
+            string adUnitId = "ca-app-pub-9585251573794462/4136884151";
         #elif UNITY_IPHONE
             string adUnitId = "ca-app-pub-3940256099942544/4411468910";
         #else
@@ -88,7 +88,7 @@ public class AdsManager : MonoBehaviour
     public void RequestRewarded()
     {
         #if UNITY_ANDROID
-            string adUnitId = "ca-app-pub-3940256099942544/5224354917";
+            string adUnitId = "ca-app-pub-9585251573794462/9566795496";
         #elif UNITY_IPHONE
             string adUnitId = "ca-app-pub-3940256099942544/1712485313";
         #else
