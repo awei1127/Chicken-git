@@ -16,10 +16,12 @@ public class AdsManager : MonoBehaviour
     {
         // Initialize the Google Mobile Ads SDK.
         MobileAds.Initialize(initStatus => { });
+        RequestBanner();
         RequestInterstitial();
         RequestRewarded();
     }
 
+    /*
     private void Update()
     {
         if (interstitial.IsLoaded())
@@ -44,6 +46,7 @@ public class AdsManager : MonoBehaviour
             rewardText.color = Color.red;
         }
     }
+    */
 
     public void RequestBanner()
     {

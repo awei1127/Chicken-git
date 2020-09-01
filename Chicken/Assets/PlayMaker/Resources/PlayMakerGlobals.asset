@@ -70,7 +70,7 @@ MonoBehaviour:
   events:
   - CheckHighScore
   - UpdateScore
-  - GoGameOver
   - GoCompare
   - click
   - GoNewBestGameOver
+  - GoCollided
