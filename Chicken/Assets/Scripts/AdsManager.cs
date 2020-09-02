@@ -21,7 +21,7 @@ public class AdsManager : MonoBehaviour
         RequestRewarded();
     }
 
-    /*
+    
     private void Update()
     {
         if (interstitial.IsLoaded())
@@ -46,7 +46,7 @@ public class AdsManager : MonoBehaviour
             rewardText.color = Color.red;
         }
     }
-    */
+    
 
     public void RequestBanner()
     {
